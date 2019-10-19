@@ -1,0 +1,14 @@
+@import '../theme/mixin.scss';
+@import '../theme/variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// Header
+
+header{
+    @include flex;
+    height: 10vh;
+}
