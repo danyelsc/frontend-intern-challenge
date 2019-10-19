@@ -1,18 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 7vh;
-}
-
 #Sec {
   display: flex;
   align-items: center;
@@ -60,6 +47,19 @@ header {
   background-color: #f88502;
   height: 35px;
   width: 17%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 7vh;
 }
 
 /*# sourceMappingURL=style.css.map */
