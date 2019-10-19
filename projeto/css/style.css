@@ -30,6 +30,9 @@ header {
   text-transform: uppercase;
   font-size: 25px;
 }
+#Sec h4 {
+  color: #EEE;
+}
 #Sec article {
   width: 50%;
   margin-top: 40px;
