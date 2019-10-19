@@ -11,4 +11,48 @@ header {
   height: 10vh;
 }
 
+#Sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("../../Assets/background-home.jpg");
+  height: 80vh;
+  background-size: contain;
+  background-position: center;
+  color: #fff;
+}
+#Sec h1 {
+  text-transform: uppercase;
+}
+#Sec article {
+  width: 50%;
+  margin-top: 40px;
+}
+#Sec article input {
+  border: none;
+  border-bottom: solid 2px #f88502;
+  background: transparent;
+  width: 40%;
+  height: 30px;
+  margin-right: 5px;
+  color: #f88502;
+}
+#Sec article ::-webkit-input-placeholder {
+  color: #f88502;
+}
+#Sec article input:focus, #Sec article button:focus {
+  outline: none;
+}
+#Sec article button {
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #f88502;
+  height: 35px;
+  width: 17%;
+}
+
 /*# sourceMappingURL=style.css.map */
