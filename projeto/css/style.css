@@ -45,6 +45,12 @@
 .top ul div h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgba(0, 0, 0, 0.425);
+#Sec h4 {
+  color: #EEE;
+}
+#Sec article {
+  width: 50%;
+  margin-top: 40px;
 }
 header {
   display: flex;
