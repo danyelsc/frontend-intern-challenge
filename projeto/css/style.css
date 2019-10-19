@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 * {
   margin: 0;
   padding: 0;
@@ -51,7 +53,58 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 10vh;
+  height: 7vh;
+}
+
+#Sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("../../Assets/background-home.jpg");
+  height: 80vh;
+  background-size: contain;
+  background-position: center;
+  color: #fff;
+}
+#Sec h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+#Sec h4 {
+  text-transform: none;
+}
+#Sec article {
+  width: 50%;
+  margin-top: 40px;
+}
+#Sec article input {
+  font-size: 15px;
+  border: none;
+  border-bottom: solid 2px #f88502;
+  background: transparent;
+  width: 40%;
+  height: 30px;
+  margin-right: 5px;
+  color: #f88502;
+}
+#Sec article ::-webkit-input-placeholder {
+  color: #f88502;
+  font-size: 15px;
+}
+#Sec article input:focus, #Sec article button:focus {
+  outline: none;
+}
+#Sec article button {
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #f88502;
+  height: 35px;
+  width: 17%;
 }
 
 /*# sourceMappingURL=style.css.map */

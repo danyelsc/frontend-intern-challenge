@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
 @import '../theme/mixin.scss';
 @import '../theme/variables.scss';
 *{
@@ -51,5 +53,60 @@ div{
 
 header{
     @include flex;
-    height: 10vh;
+    height: 7vh;
+}
+
+// section
+
+#Sec{
+    @include flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url('../../Assets/background-home.jpg');
+    height: 80vh;
+    background-size: contain;
+    background-position: center;
+    color: #fff;
+
+    h1{
+        font-weight: bold;
+        font-size: 40px;
+    }
+    h4{
+        text-transform: none;
+    }
+    
+    article{
+        width: 50%;
+        margin-top: 40px;
+        // font-family: "Open Sans";
+
+        input{
+            font-size: 15px;            
+            border: none;
+            border-bottom: solid 2px rgb(248, 133, 2) ;
+            background: transparent;
+            width: 40%;
+            height: 30px;
+            margin-right: 5px;
+            color: rgb(248, 133, 2);            
+        }
+        ::-webkit-input-placeholder{
+            color: rgb(248, 133, 2);
+            font-size: 15px;
+        }
+        input:focus, button:focus{
+            outline: none;
+        }
+        
+        button{
+            color: #fff;
+            font-size:17px;
+            text-transform: uppercase;
+            border: none;
+            background-color:  rgb(248, 133, 2);
+            height: 35px;
+            width: 17%;
+        }
+    }
 }
