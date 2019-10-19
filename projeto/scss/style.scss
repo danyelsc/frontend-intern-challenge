@@ -12,14 +12,14 @@
 
 header{
     @include flex;
-    height: 10vh;
+    height: 7vh;
 }
 
 // section
 
 #Sec{
     @include flex;
-    font-family: "Open Sans";
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-image: url('../../Assets/background-home.jpg');
     height: 80vh;
@@ -28,8 +28,8 @@ header{
     color: #fff;
 
     h1{
-        // text-transform: uppercase;
-        // @include text(Comfortaa, 30px, uppercase);
+        text-transform: uppercase;
+        font-size: 25px;
 
     }
     
